@@ -46,7 +46,7 @@ SCRIPT;
   echo $js;
   $terms = get_terms($taxonomy);
   echo "<select name=\"{$id}\" id=\"{$id}\">";
-echo '<option value="#"> - Select - </option>';
+echo '<option value="#"> </option>';
   foreach($terms as $term) {
     echo '<option value="';
     echo get_term_link(intval($term->term_id),$taxonomy);
