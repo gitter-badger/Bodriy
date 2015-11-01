@@ -12,6 +12,9 @@ Tags: black, white, Real estate, right-sidebar, fixed-width, theme-options, thre
 
 
 /* BASIC */
+
+/*@import url('bootstrap/css/bootstrap.css'); */
+
 * {
 margin:0;
 padding:0;
@@ -256,10 +259,10 @@ float:left;
 .rphone{
 float:right;
 width:220px;
-background:url(images/phone.png) left center no-repeat;
+/*background:url(images/phone.png) left center no-repeat;*/
 height:50px;
 margin-top:30px;
-padding:10px 0px 0px 60px;
+/*padding:10px 0px 0px 60px;*/
 color:#eee;
 font-size:12px;
 font-family:arial;
@@ -274,10 +277,10 @@ padding-bottom:5px;
 .rmail{
 float:right;
 width:220px;
-background:url(images/email.png) left center no-repeat;
+/*background:url(images/email.png) left center no-repeat;*/
 height:50px;
 margin-top:30px;
-padding:10px 0px 0px 60px;
+/*padding:10px 0px 0px 60px;*/
 color:#eee;
 font-size:12px;
 font-family:arial;
@@ -1190,3 +1193,16 @@ line-height:16px;
 	float: left;
 	margin-right: 4px;
 }	
+
+.pallid_fa_center {
+	float: left;
+    padding-right: 3%;
+}
+
+.pallid_href {
+	color: rgb(221, 221, 221);
+}
+
+.pallid_href hover {
+	color: rgb(221, 221, 221);
+}

@@ -1,5 +1,5 @@
 <div id="browselist" class="clearfix">
-<h3 class="sidetitle"> Показать списки</h3>
+<h3 class="sidetitle">Параметры поиска</h3>
 <p class="listin"><span>Местоположение</span><br/><?php the_dropdown_taxonomy('location'); ?></p>
 <p class="listir"><span>Тип недвижимости</span><br/><?php the_dropdown_taxonomy('property'); ?></p>
 <p class="listin"><span>Площадь в м2</span><br/><?php the_dropdown_taxonomy('area'); ?></p>

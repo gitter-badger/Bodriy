@@ -45,7 +45,7 @@ function the_dropdown_taxonomy($taxonomy) {
 SCRIPT;
   echo $js;
   $terms = get_terms($taxonomy);
-  echo "<select name=\"{$id}\" id=\"{$id}\">";
+  echo "<select class=\"form-control\" name=\"{$id}\" id=\"{$id}\" >";
 echo '<option value="#"> </option>';
   foreach($terms as $term) {
     echo '<option value="';

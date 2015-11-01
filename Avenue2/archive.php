@@ -36,7 +36,7 @@
 </div>
 	<div class="entry">
 		<?php wpe_excerpt('wpe_excerptlength_archive', ''); ?>
-		<a class="morer" href="<?php the_permalink() ?>">Отметить этот список</a>
+		<a class="morer" href="<?php the_permalink() ?>">Подробней</a>
 		<div class="clear"></div>
 	</div>
 

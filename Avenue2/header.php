@@ -5,7 +5,10 @@
 <title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/listing.css" media="screen" />	
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/listing.css" media="screen" />
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/bootstrap/css/bootstrap.min.css" media="screen" />  -->
+	
 <link rel="alternate" type="application/rss+xml" title="RSS-лента <?php bloginfo('name'); ?>" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -14,7 +17,7 @@
 wp_enqueue_script('jquery');
 wp_enqueue_script('bxslider', get_stylesheet_directory_uri() .'/js/jquery.bxSlider.min.js');
 wp_enqueue_script('superfish', get_stylesheet_directory_uri() .'/js/superfish.js');
-wp_enqueue_script('effects', get_stylesheet_directory_uri() .'/js/effects.js'); 
+wp_enqueue_script('effects', get_stylesheet_directory_uri() .'/js/effects.js');
 ?>
 
 <?php wp_get_archives('type=monthly&format=link'); ?>
@@ -41,10 +44,12 @@ wp_head();
 	
 	<div id="contactlist">
 		<div class="rphone">
+		<i class="pallid_fa_center fa fa-phone fa-3x"></i>	
 		<span>Звоните</span><br/>
 		<p><?php $my_phone =get_option('aven_my_phone'); echo $my_phone ?></p>
 		</div>
 		<div class="rmail">
+		<i class="pallid_fa_center fa fa-envelope-o fa-3x"></i>	
 		<span>Наш e-mail</span><br/>
 		<p><?php $my_mail =get_option('aven_my_email'); echo $my_mail ?></p>
 		</div>
