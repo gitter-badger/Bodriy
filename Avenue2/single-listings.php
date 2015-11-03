@@ -44,7 +44,8 @@
 </div>
 
 <div class="intlink clearfix">
-<span class="intext"> Вас заинтересовала эта недвижимость - <?php $pid=get_post_meta($post->ID, 'wtf_pid', true); echo $pid; ?> ? </span> <span class="intbutt"> <a href="mailto:<?php echo the_author_meta('user_email'); ?>?Subject=<?php the_title(); ?> [<?php $pid=get_post_meta($post->ID, 'wtf_pid', true); echo $pid; ?>] ">Свяжитесь со мной</a> </span>
+	<span class="intext"> Вас заинтересовал лот - <?php $pid=get_post_meta($post->ID, 'wtf_pid', true); echo $pid; ?> ? </span>
+	<span class="intbutt"> <a href="mailto:<?php echo the_author_meta('user_email'); ?>?Subject=<?php the_title(); ?> [<?php $pid=get_post_meta($post->ID, 'wtf_pid', true); echo $pid; ?>] ">Свяжитесь с нами</a> </span>
 </div>
 
 

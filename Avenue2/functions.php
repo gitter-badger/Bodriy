@@ -89,10 +89,11 @@ function getpagenavi(){
 <div id="navigation">
 <?php if(function_exists('wp_pagenavi')) : ?>
 <?php wp_pagenavi() ?>
+
 <?php else : ?>
-        <div class="alignleft"><?php next_posts_link(__('&laquo; Старые записи','web2feel')) ?></div>
-        <div class="alignright"><?php previous_posts_link(__('Новые записи &raquo;','web2feel')) ?></div>
-        <div class="clear"></div>
+    <div class="alignleft"><?php next_posts_link(__('&laquo; Старые записи','web2feel')) ?></div>
+    <div class="alignright"><?php previous_posts_link(__('Новые записи &raquo;','web2feel')) ?></div> 
+    <div class="clear"></div>
 <?php endif; ?>
 
 </div>

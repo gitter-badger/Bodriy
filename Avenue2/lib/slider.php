@@ -29,7 +29,7 @@
 	<div class="spropmeta">
 <h3><?php the_title(); ?></h3>
 	<div class="sproplist"><span>Местоположение</span> <span class="propval"> <?php echo get_the_term_list( $post->ID, 'location', '', ' ', '' ); ?></span></div>
-	<div class="sproplist"><span>Тип недвижимости</span> <span class="propval"><?php echo get_the_term_list( $post->ID, 'property', '', ' ', '' ); ?></span></div>
+	<div class="sproplist"><span>Тип недвижимости</span> <span class="propval pallid_propval"><?php echo get_the_term_list( $post->ID, 'property', '', ' ', '' ); ?></span></div>
 	<div class="sproplist"><span>Площадь</span> <span class="propval"> <?php echo get_the_term_list( $post->ID, 'area', '', ' ', '' ); ?></span></div>
 	<div class="sproplist"><span>Спальни</span> <span class="propval"> <?php echo get_the_term_list( $post->ID, 'bedrooms', '', ' ', '' ); ?></span></div>
 	<div class="sproplist"><span>Ванная</span> <span class="propval"> <?php $bath=get_post_meta($post->ID, 'wtf_bath', true); echo $bath; ?></span></div>

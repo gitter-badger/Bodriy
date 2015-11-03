@@ -107,7 +107,7 @@
 	font-weight:bold;
 	color:#111;
 	float:left;
-	width:200px;
+	width:250px;
 }
 
 .propslist span.propval{
@@ -193,7 +193,7 @@ margin-left:5px;
 }
 
 .inpanel{
-width:250px;
+width:270px;
 height:300px;
 background:url(images/trans.png);
 position:absolute;
